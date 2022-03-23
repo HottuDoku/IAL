@@ -1,0 +1,80 @@
+C204 - Infix to Postfix Expression Conversion - Basic Tests
+-----------------------------------------------------------
+
+[TEST01] Upper and lower case characters with plus operator
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Input infix expression:    a+B=
+[W] Function infix2postfix hasn't been implemented yet.
+
+[TEST02] Digits with minus operator
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Input infix expression:    0-1=
+[W] Function infix2postfix hasn't been implemented yet.
+
+[TEST03] Mixed operands with multiplication operator
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Input infix expression:    a*0=
+[W] Function infix2postfix hasn't been implemented yet.
+
+[TEST04] Mixed operands with division operator
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Input infix expression:    B/1=
+[W] Function infix2postfix hasn't been implemented yet.
+
+[TEST05] Parentheses support
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Input infix expression:    (a+b)=
+[W] Function infix2postfix hasn't been implemented yet.
+
+[TEST06] Expression evaluation from the left to the right
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Input infix expression:    a+b+c=
+[W] Function infix2postfix hasn't been implemented yet.
+
+[TEST07] Minus operator does not have higher priority than plus
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Input infix expression:    a+b-c=
+[W] Function infix2postfix hasn't been implemented yet.
+
+[TEST08] Plus operator does not have higher priority than minus
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Input infix expression:    A-B+C=
+[W] Function infix2postfix hasn't been implemented yet.
+
+[TEST09] Division operator does not have higher priority than multiplication
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Input infix expression:    1*2/3=
+[W] Function infix2postfix hasn't been implemented yet.
+
+[TEST10] Multiplication operator does not have higher priority than division
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Input infix expression:    a/B*C=
+[W] Function infix2postfix hasn't been implemented yet.
+
+[TEST11] Multiplication operator has higher priority than plus
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Input infix expression:    a*B+c=
+[W] Function infix2postfix hasn't been implemented yet.
+
+[TEST12] Parentheses change operator priority
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Input infix expression:    A+(B-c)=
+[W] Function infix2postfix hasn't been implemented yet.
+
+[TEST13] Parentheses change operator priority
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Input infix expression:    A*(b/c)=
+[W] Function infix2postfix hasn't been implemented yet.
+
+[TEST14] Parentheses change operator priority
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Input infix expression:    A*(b-C)=
+[W] Function infix2postfix hasn't been implemented yet.
+
+[TEST15] Complex expression conversion
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Input infix expression:    (A*0+b)*((c*(1+D))-(e/(3*f+g)))=
+[W] Function infix2postfix hasn't been implemented yet.
+
+
+----- C204 - The End of Basic Tests -----
